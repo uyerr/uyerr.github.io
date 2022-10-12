@@ -44,11 +44,8 @@ li {
 }
 
 .nav__logo {
-    width: 60px;
-    animation: float 2000ms infinite alternate-reverse;
-    -webkit-filter: drop-shadow(2px 8px 6px rgba(34, 34, 34, 0.849));
-            filter: drop-shadow(2px 8px 6px rgba(34, 34, 34, 0.849));
-    
+    margin-top: 10px;
+    width: 70px;
 }
 
 .nav__link--list {
@@ -94,6 +91,9 @@ li {
 .social__list {
     margin-top: 16px;
     display: flex;
+    animation: float 2000ms infinite alternate-reverse;
+    -webkit-filter: drop-shadow(2px 8px 6px rgba(34, 34, 34, 0.849));
+            filter: drop-shadow(2px 8px 6px rgba(34, 34, 34, 0.849));
 }
 
 .social__link {
@@ -255,4 +255,7 @@ li {
         font-size: 20px;
     }
 
+    .footer__container {
+        width: 100%;
+    }
 }
